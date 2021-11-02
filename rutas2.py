@@ -5,7 +5,7 @@ app = Flask(__name__)#nuevo objeto,
 
 @app.route('/')
 def index():
-    return 'Hola mundo.'
+    return 'Hola Mundo.'
 
 # http://localhost:8000/params?params1=Eduardo_Ismael&params2=test_dos
 
